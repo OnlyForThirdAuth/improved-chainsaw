@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    width: 1060px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 70px 0;
+    text-transform: uppercase;
+    color: #626262;
+}
+
+.header__title__main {
+    width: 105px;
+    font-family: Inconsolata, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31.47px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #424243;
+}
+
+.header__title__secondary {
+    margin-left: 272px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+
+.main__img {
+    width: 1060px;
+    height: 508px;
+    margin: 59px 70px 0;
+}
+
+.main__text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.main__text__photodiary {
+    margin: 85px 0 0 50px;
+}
+
+.main__text__photodiary__title {
+    width: 98px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #626262;
+}
+
+.main__text__photodiary__subtitle {
+    width: 398px;
+    height: 35px;
+    margin: 20px 0 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    color: #424243;
+}
+
+.main__text__photodiary__text {
+    width: 660px;
+    height: 210px;
+    margin: 40px 0 0;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #626262;
+}
+
+.mimimo3_img {
+    margin-top: 100px;
+}
+
+.main__text__photodiary__text__two {
+    width: 660px;
+    height: 210px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #626262;
+    margin-top: 40px;
+}
+
+.main__text__sidebar {
+    width: 277px;
+    height: 556px;
+    margin: 82px 65px 0 78px;
+}
+
+.main__text__sidebar__title {
+    width: 104px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    margin-top: 30px;
+    color: #424243;
+}
+
+.main__text__sidebar__subtitle {
+    width: 277px;
+    height: 51px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    margin-top: 15px;
+    color: #626262;
+}
+
+.main__text__sidebar__top {
+    height: 16px;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    margin-top: 35px;
+    color: #626262;
+    text-transform: uppercase;
+}
+
+.main__text__sidebar__list {
+    width: 197px;
+    height: 43px;
+    margin: 25px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px;    
+}
+
+ul li {
+    color: #BABABA;
+}
+
+.main__text__sidebar__list__item__one {
+    width: 197px;
+    height: 43px;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #424243; 
+}
+
+.main__text__sidebar__list__comments {
+    font-size: 12px;
+    line-height: 14.06px;
+    letter-spacing: 0.1em;
+    color: #626262;
+    text-transform: uppercase;
+    padding: 10px 0 0 5px;
+    margin-left: -5px;
+}
+
+.main__text__sidebar__list__item__two {
+    margin: 25px 0 0; 
+    color: #424243; 
+}
+
+.main__text__sidebar__list__item__three {
+    margin: 25px 0 0;
+    color: #424243; 
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    background-color: #F0F0F0;
+    margin: 275px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer__links {
+    display: flex;
+    gap: 30px; 
+    margin: 0 0 10px 120px;
+}
+
+.footer__text {
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer__text:hover {
+    text-decoration: underline;
+}
